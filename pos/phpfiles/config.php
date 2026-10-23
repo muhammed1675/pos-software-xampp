@@ -16,10 +16,11 @@ return [
     'shop_about'   => 'A short description of what your shop sells.',   // login page "About us"
 
     // "Software by" lines (receipt footer and the Contact page).
-    'dev_name'   => 'YOUR COMPANY NAME',
-    'dev_phone'  => '0800 000 0000',
-    'dev_email'  => 'you@example.com',
-    'dev_credit' => 'YOUR COMPANY NAME | 0800 000 0000',
+    'dev_name'   => 'Mgraphix_Web',
+    'dev_phone'  => '09131133832',
+    'dev_email'  => '',
+    'dev_website'=> 'www.mgraphixweb.com.ng',
+    'dev_credit' => 'Mgraphix_Web | www.mgraphixweb.com.ng | 09131133832',
 
     // Used to scramble stored passwords. Change it for each customer, then run:
     //   php phpfiles/reset-admin.php NewPassword

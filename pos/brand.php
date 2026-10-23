@@ -20,6 +20,7 @@ $map = array(
     '{{DEV_NAME}}'     => $esc($cfg['dev_name']),
     '{{DEV_PHONE}}'    => $esc($cfg['dev_phone']),
     '{{DEV_EMAIL}}'    => $esc($cfg['dev_email']),
+    '{{DEV_WEBSITE}}'  => $esc($cfg['dev_website']),
 );
 $etag = '"' . md5(filemtime($path) . '|' . filemtime(__DIR__ . '/phpfiles/config.php') . '|' . serialize($map)) . '"';
 header('Content-Type: application/javascript; charset=utf-8');
