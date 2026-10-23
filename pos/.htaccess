@@ -1,0 +1,8 @@
+Options -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+# the compiled script gets the shop details filled in (see brand.php)
+RewriteRule ^static/js/(main\.[a-z0-9]+\.chunk\.js)$ brand.php?f=$1 [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

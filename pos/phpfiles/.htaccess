@@ -1,0 +1,9 @@
+<FilesMatch "\.(log|md)$">
+    Require all denied
+</FilesMatch>
+<Files "config.php">
+    Require all denied
+</Files>
+<Files "reset-admin.php">
+    Require all denied
+</Files>
